@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.colorChanger{
+    background-color: rgba(13, 200, 194, 0.405);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 70px 0;
+
+}
+
+.heading h1{
+    font-size: 70px;
+    pad: 10px;
+}
+
+.colorChanger .btns{
+    margin-top:100px;
+
+}
+
+.btns button{
+    margin: 0 40px;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    /* background-color: black; */
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btns button:nth-child(1){
+    background-color: rgb(12, 148, 12);
+}
+.btns button:nth-child(2){
+    background-color: red ;
+
+}
+.btns button:nth-child(3){
+    background-color: rgb(253, 125, 12);
+}

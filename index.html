@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="bg" class="colorChanger">
+        <div class="heading">
+            <h1 id="main-heading">Hey there, what's up?</h1>
+        </div>
+        <div class="btns">
+            <button id="btn1">I'm Good</button>
+            <button id="btn2">I'm Sick</button>
+            <button id="btn3">So-so!</button>
+        </div>
+    </div>
+
+    <script>
+        const change_heading = document.getElementById("main-heading")
+        
+        const change_btn1 = document.getElementById("btn1")
+
+        change_btn1.addEventListener("click", function() {
+            change_heading.textContent = "I'm Good";
+            change_heading.style.color = "rgb(12, 148, 12)"
+        });
+
+        // btn2 
+        
+        const up_btn2 = document.getElementById("btn2")
+
+        up_btn2.addEventListener("click", function(){
+            change_heading.textContent = "I'm Sick";
+            change_heading.style.color = "red";
+        })
+
+        // btn3 
+        const new_btn3 = document.getElementById("btn3")
+
+        new_btn3.addEventListener("click", function(){
+            change_heading.textContent = "So-so!"
+            change_heading.style.color = "rgb(253, 125, 12)"
+        })
+
+        // //bg
+        // const change_bg = document.getElementById("bg")
+        // const loop_heading = document.getElementById("main-heading")
+        
+        // change_bg.addEventListener('click', function(){
+        //     change_heading.textContent = "Hey there, what's up?"
+        // })
+
+
+    </script>
+
+
+</body>
+</html>
