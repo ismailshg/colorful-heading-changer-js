@@ -29,7 +29,7 @@
 }
 
 .btns button{
-    margin: 0 40px;
+    margin: 10px 40px;
     border: none;
     outline: none;
     padding: 10px 15px;
@@ -49,4 +49,5 @@
 }
 .btns button:nth-child(3){
     background-color: rgb(253, 125, 12);
+
 }
