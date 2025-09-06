@@ -20,7 +20,7 @@
 
 .heading h1{
     font-size: 70px;
-    pad: 10px;
+    padding: 10px;
 }
 
 .colorChanger .btns{
@@ -51,4 +51,29 @@
     background-color: rgb(253, 125, 12);
 
 }
+
+/* mobile responsive  */
+@media (max-width:600px){
+    .colorChanger{
+        background-color: rgba(13, 200, 194, 0.405);
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 15%;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 40px 0;
+        border: 5px solid #000;
+    }
+    .heading h1{
+        font-size: 50px;
+        padding: 5px;
+    }
+    .colorChanger .btns{
+        margin-top:70px;
+        display: flex;
+        flex-direction: column;
+
+    }
+} 
+
 
